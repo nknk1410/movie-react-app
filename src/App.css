@@ -1,0 +1,14 @@
+.scrollable-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .scrollable-container::-webkit-scrollbar {
+    height: 6px;
+    width: 20px;
+  }
+  
+  .scrollable-container::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+  }
